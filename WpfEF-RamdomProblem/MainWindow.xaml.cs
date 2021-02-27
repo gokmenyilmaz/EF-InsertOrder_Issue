@@ -18,12 +18,15 @@ namespace WpfEF_RamdomProblem
         {
             BloggingContext dc = new BloggingContext();
 
-            //  dc.Database.EnsureCreated();
+            dc.Blogs.RemoveRange(dc.Blogs.ToList());
+            dc.SaveChanges();
+          
+           // dc.Database.EnsureCreated();
 
+            var bloglar = new List<Blog> { new Blog { Url = "A" }, new Blog { Url = "B" }, new Blog { Url = "C" } };
 
-            var bloglar = dc.Blogs
-                .Include(s => s.Posts)
-                .ToList();
+            //var bloglar = dc.Blogs.Include(s => s.Posts).ToList();
+
 
             var l = new List<Post>();
 
@@ -42,6 +45,7 @@ namespace WpfEF_RamdomProblem
                 blog.PostlariEkle(des);
             }
 
+            dc.AddRange(bloglar);
 
             dc.SaveChanges();
         }
