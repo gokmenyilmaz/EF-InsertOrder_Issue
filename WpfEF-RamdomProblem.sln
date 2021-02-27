@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfEF-RamdomProblem", "WpfEF-RamdomProblem\WpfEF-RamdomProblem.csproj", "{01C25F37-8748-468E-8003-8C0DA58814FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01C25F37-8748-468E-8003-8C0DA58814FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C25F37-8748-468E-8003-8C0DA58814FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C25F37-8748-468E-8003-8C0DA58814FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C25F37-8748-468E-8003-8C0DA58814FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D605C18-EF76-48A3-B904-A1D37EC1927E}
+	EndGlobalSection
+EndGlobal
